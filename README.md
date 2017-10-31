@@ -18,10 +18,13 @@ information or see https://opensource.org/licenses/MIT.
 ### Build instructions
 
 #### Dependencies:
-`sudo apt-get install software-properties-common autoconf git build-essential libtool libprotobuf-c-dev libgmp-dev libsqlite3-dev python python3 zip jq libevent-dev pkg-config libssl-dev libcurl4-gnutls-dev cmake`
-`add-apt-repository ppa:bitcoin/bitcoin`
-`sudo apt-get update`
-`sudo apt-get install -y libdb4.8-dev libdb4.8++-dev`
+```
+sudo apt-get install software-properties-common autoconf git build-essential libtool libprotobuf-c-dev libgmp-dev libsqlite3-dev python python3 zip jq libevent-dev pkg-config libssl-dev libcurl4-gnutls-dev cmake
+
+add-apt-repository ppa:bitcoin/bitcoin
+sudo apt-get update
+sudo apt-get install -y libdb4.8-dev libdb4.8++-dev
+```
 
 #### Boost
 ```cd
