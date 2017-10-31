@@ -37,12 +37,12 @@ cd boost_1_64_0
 ```cd
 git clone https://github.com/jl777/chips3
 cd ~/chips3
-./autogen.sh./configure --with-boost=/usr/local/
+./autogen.sh
+./configure --with-boost=/usr/local/ --with-gui=no --disable-tests --disable-bench
 cd src
 make chipsd
 make chips-cli
 cp chips-cli /usr/bin
-make -> will build everything, including QT wallet
 sudo ldconfig /usr/local/lib
 ```
 
