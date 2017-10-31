@@ -24,13 +24,13 @@ information or see https://opensource.org/licenses/MIT.
 `sudo apt-get install -y libdb4.8-dev libdb4.8++-dev`
 
 #### Boost
-`cd`
-`wget https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.zip`
-`unzip boost_1_64_0.zip`
-`cd boost_1_64_0`
-`./bootstrap.sh`
-`./b2`
-`./b2 install`
+```cd
+wget https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.zip
+unzip boost_1_64_0.zip
+cd boost_1_64_0
+./bootstrap.sh
+./b2
+./b2 install```
 
 #### CHIPS daemon
 `cd`
@@ -50,8 +50,8 @@ Run CHIPS daemon:
 
 #### Lightning Network
 `cd`
-`git clone https://github.com/jl777/lightning`
-`cd lightning`
+`git clone https://github.com/jl777/lightning` 
+`cd lightning` 
 `make`
 `daemon/lightning-cli stop; lightningd/lightningd --log-level=debug &`
 `cd privatebet`
