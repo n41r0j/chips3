@@ -2,7 +2,8 @@ What is CHIPS?
 --------------
 
 CHIPS is a Bitcoin fork, developed by SuperNET on the Komodo Platform. 
-It will be used as playing chips in decentralized betting games. 
+CHIPS will be used as playing chips in decentralized betting games, 
+of which Pangea Poker will be the first implementation. 
 CHIPS uses the Lightning Network in order to make fast transactions happen in various betting games.
 
 For more information see the [ANN](https://bitcointalk.org/index.php?topic=2078449) on bitcointalk.org.
