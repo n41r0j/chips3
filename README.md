@@ -30,32 +30,33 @@ unzip boost_1_64_0.zip
 cd boost_1_64_0
 ./bootstrap.sh
 ./b2
-./b2 install```
+./b2 install
+```
 
 #### CHIPS daemon
-`cd`
-`git clone https://github.com/jl777/chips3`
-`cd ~/chips3`
-`./autogen.sh`
-`./configure --with-boost=/usr/local/`
-`cd src`
-`make chipsd`
-`make chips-cli`
-`cp chips-cli /usr/bin` 
+```cd
+git clone https://github.com/jl777/chips3
+cd ~/chips3
+./autogen.sh./configure --with-boost=/usr/local/
+cd src
+make chipsd
+make chips-cli
+cp chips-cli /usr/bin
 make -> will build everything, including QT wallet
-`sudo ldconfig /usr/local/lib`
+sudo ldconfig /usr/local/lib
+```
 
-Run CHIPS daemon:
+Run CHIPS daemon: 
 `./chipsd -daemon`
 
 #### Lightning Network
-`cd`
-`git clone https://github.com/jl777/lightning` 
-`cd lightning` 
-`make`
-`daemon/lightning-cli stop; lightningd/lightningd --log-level=debug &`
-`cd privatebet`
-`./m_bet`
-`./client or ./host`
-
+```cd
+git clone https://github.com/jl777/lightning
+cd lightning 
+make
+daemon/lightning-cli stop; lightningd/lightningd --log-level=debug &
+cd privatebet
+./m_bet
+./client or ./host
+```
 
